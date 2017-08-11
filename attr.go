@@ -557,3 +557,7 @@ var validAttrs = map[string]Attr{
 	string(Outline):  Outline,
 	string(F):        F,
 }
+
+func AddAttr(attr string) {
+	validAttrs[attr]=Attr(attr)
+}
