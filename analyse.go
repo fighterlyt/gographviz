@@ -15,7 +15,7 @@
 package gographviz
 
 import (
-	"github.com/awalterschulze/gographviz/ast"
+	"github.com/fighterlyt/gographviz/ast"
 )
 
 // NewAnalysedGraph creates a Graph structure by analysing an Abstract Syntax Tree representing a parsed graph.

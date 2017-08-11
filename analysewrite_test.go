@@ -20,7 +20,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/awalterschulze/gographviz/internal/parser"
+	"github.com/fighterlyt/gographviz/internal/parser"
 )
 
 func (nodes *Nodes) String() string {
@@ -222,13 +222,13 @@ func TestSubSubGraph(t *testing.T) {
     Ga->Gb;
     sA->sB;
     ssA->ssB;
-    
+
      subgraph clusterone {
         fillcolor=red;
         style=filled;
         sA;
         sB;
-        
+
         subgraph clustertwo {
             fillcolor=blue;
             style=filled;
@@ -236,7 +236,7 @@ func TestSubSubGraph(t *testing.T) {
         	ssB;
        }
     }
-    
+
     Ga;
     Gb;
 }

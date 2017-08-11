@@ -18,14 +18,14 @@ output := graph.String()
 
 ### Documentation ###
 
-The [godoc](https://godoc.org/github.com/awalterschulze/gographviz) includes some more examples.
+The [godoc](https://godoc.org/github.com/fighterlyt/gographviz) includes some more examples.
 
 ### Installation ###
-go get github.com/awalterschulze/gographviz
+go get github.com/fighterlyt/gographviz
 
 ### Tests ###
 
-[![Build Status](https://travis-ci.org/awalterschulze/gographviz.svg?branch=master)](https://travis-ci.org/awalterschulze/gographviz)
+[![Build Status](https://travis-ci.org/fighterlyt/gographviz.svg?branch=master)](https://travis-ci.org/fighterlyt/gographviz)
 
 ### Users ###
 
